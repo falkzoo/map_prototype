@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.form-group {
+    width: 700px;
+    border: 1px solid #c3c3c3;
+    margin: auto;
+    position: absolute; 
+    left: 0;
+    right: 0;
+}
+
+#map { height: 800px; }
