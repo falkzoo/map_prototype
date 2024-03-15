@@ -2,13 +2,157 @@ h1{
     text-align: center;
 }
 
-.form-group {
-    width: 700px;
-    border: 1px solid #c3c3c3;
-    margin: auto;
-    position: absolute; 
-    left: 0;
-    right: 0;
+#map { height: 800px; }
+
+
+/* Image next to Text*/
+.cf img {float:left;}
+.cf div  {float:left;}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
-#map { height: 800px; }
+.cf:after {
+    clear: both;
+}
+
+/* Scrollbar Style*/
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black grey;
+}
+
+/* width */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+/* Basisstil für die Checkbox */
+
+form {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.form-control {
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.1;
+    background-color: #b5fcdb;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+  
+/* .form-control + .form-control {
+    margin-top: 1em;
+} */
+
+.custom-control {
+    background-color: #b5fcdb;
+}
+
+.custom-control-input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #ffffff00;
+    /* Not removed via appearance */
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
+}
+
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    grid-column: 1,2;
+    place-content: center;
+}
+  
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em currentColor;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    background-color: currentColor;
+}
+
+
+
+/* Leaflet Popup Style*/
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background:#b5fcdb;
+    color:#000000;
+    font-size:14px;
+    line-height:22px;
+    margin: 1px;
+    }
+.custom-popup .leaflet-popup-content-wrapper a {
+    color:rgba(255,255,255,0.5);
+}
+.custom-popup .leaflet-popup-content {
+    max-height: 400px;
+    max-width: max-content;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* .custom-popup .leaflet-popup-tip-container {
+width:30px;
+height:15px;
+}
+.custom-popup .leaflet-popup-tip {
+border-left:15px solid transparent;
+border-right:15px solid transparent;
+border-top:15px solid #2c3e50;
+} */
