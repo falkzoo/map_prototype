@@ -6,14 +6,14 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Gro\u00dffl\u00e4chen - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2350.jpg style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2350-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2350-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Gro\u00dffl\u00e4chen"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.41107,
-                        52.50366
+                        13.410074,
+                        52.503893
                     ]
                 }
             },
@@ -21,14 +21,14 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Gro\u00dffl\u00e4chen - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2347.jpg style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2347-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2347-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Gro\u00dffl\u00e4chen"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.41093,
-                        52.50389
+                        13.410691,
+                        52.503932
                     ]
                 }
             },
@@ -36,14 +36,44 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Gro\u00dffl\u00e4chen - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2349.jpg style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2349-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2349-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Gro\u00dffl\u00e4chen"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.41093,
-                        52.50389
+                        13.410863,
+                        52.504043
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Gro\u00dffl\u00e4chen - Hasenheide",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Hasenheide</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Hasenheide<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2378-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2378-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Gro\u00dffl\u00e4chen"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42304,
+                        52.48688
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Gro\u00dffl\u00e4chen - Hasenheide",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Hasenheide</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Hasenheide<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2377-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2377-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Gro\u00dffl\u00e4chen"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42323,
+                        52.48684
                     ]
                 }
             }
@@ -56,14 +86,29 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Plakatwerbung auf dem Bahnhof - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatwerbung auf dem Bahnhof - Moritzplatz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Moritzplatz<br>Standort: U-Bahnhof<br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2356.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2346.jpg style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatwerbung auf dem Bahnhof - Moritzplatz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Moritzplatz<br>Standort: U-Bahnhof<br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2356.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2346.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Plakatwerbung"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.41096,
-                        52.50355
+                        13.410745,
+                        52.503579
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Plakatwerbung - U Bahnhof Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatwerbung - U Bahnhof Hermannplatz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Hermannplatz<br>Standort: U-Bahnhof<br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2391-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2391-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42447,
+                        52.48662
                     ]
                 }
             }
@@ -76,14 +121,269 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Stromkasten - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2355.jpg style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2352-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Stromkasten"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.41096,
-                        52.50355
+                        13.410498,
+                        52.503899
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Moritzplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2355.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.410251,
+                        52.503657
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Moritzplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2365-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2365-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.415406,
+                        52.502397
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Moritzplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2361-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2361-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.416603,
+                        52.502681
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Moritzplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2358-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2358-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.416705,
+                        52.502286
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Lausitzer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Lausitzer Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Lausitzer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2370-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2370-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.430346,
+                        52.50081
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Lausitzer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Lausitzer Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Lausitzer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2371-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2371-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.429976,
+                        52.499866
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Lausitzer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Lausitzer Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Lausitzer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2369.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.431328,
+                        52.00689
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Lausitzer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Lausitzer Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Lausitzer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2367-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2368-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.431677,
+                        52.500369
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Hermannplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2383-neu.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2383-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.424714,
+                        52.486315
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Kottbusser Damm / Urbanstra\u00dfe",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Kottbusser Damm / Urbanstra\u00dfe</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Kottbusser Damm / Urbanstra\u00dfe<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2388-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2388-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42485,
+                        52.48814
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2330-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2330-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.444916,
+                        52.474331
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2322-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2322-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.445302,
+                        52.473753
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2321-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2321-1-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.445415,
+                        52.473478
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2329-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2329-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.446128,
+                        52.474419
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2327-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2327-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.446847,
+                        52.474622
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2325-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2325-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.447196,
+                        52.47449
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Richardplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2324-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2324-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.447303,
+                        52.474436
                     ]
                 }
             }
@@ -96,14 +396,339 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Litfa\u00dfs\u00e4ule - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Moritzplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2351.jpg style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Moritzplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2351.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Litfa\u00dfs\u00e4ule"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.41096,
-                        52.50355
+                        13.410342,
+                        52.503824
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Oranienplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Oranienplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2362.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.415412,
+                        52.503112
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Oranienplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Oranienplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2364-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2364-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.415626,
+                        52.502462
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Oranienplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Oranienplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2357-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2357-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.416431,
+                        52.501953
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Oranienplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Oranienplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2360-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2360-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.417123,
+                        52.502619
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Lausitzer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Lausitzer Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Lausitzer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-20230802_122125-002-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-20230802_122125-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.430035,
+                        52.499664
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Lausitzer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Lausitzer Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Lausitzer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2366-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.432079,
+                        52.49967
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Hasenheide",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Hasenheide</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Hasenheide<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2373-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2373-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42065,
+                        52.48731
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Hermannplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2376-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2376-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42332,
+                        52.48676
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Richardplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2328-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2328-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.445962,
+                        52.474387
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Richardplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2328-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2328-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.445962,
+                        52.474387
+                    ]
+                }
+            }
+        ]
+    },
+    "Uhrenwerbung": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Oranienplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Oranienplatz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Oranienplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2359-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Oranienplatz-wtm-aussenwerbung-berlin-2359-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.416871,
+                        52.502492
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Hermannplatz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2379-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2379-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42416,
+                        52.48668
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Hermannplatz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2381-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2381-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.424547,
+                        52.486377
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Dreh Uhrenwerbung - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Dreh Uhrenwerbung - Hermannplatz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2385-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2385-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42514,
+                        52.48734
+                    ]
+                }
+            }
+        ]
+    },
+    "Leuchtk\u00e4sten": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Leuchtk\u00e4sten vor Huxleys Neue Welt",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Leuchtk\u00e4sten vor Huxleys Neue Welt</h3><br> Werbetr\u00e4ger: Leuchtk\u00e4sten<br>Ort: Hasenheide<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2374-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2374-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Leuchtk\u00e4sten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.420964,
+                        52.487203
+                    ]
+                }
+            }
+        ]
+    },
+    "Fassadenwerbung": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Fassadenwerbung - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Fassadenwerbung - Hermannplatz</h3><br> Werbetr\u00e4ger: Fassadenwerbung<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2389-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2389-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Fassadenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42555,
+                        52.48761
+                    ]
+                }
+            }
+        ]
+    },
+    "Mastenschild": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Hermannplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Hermannplatz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Hermannplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2387-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2387-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42521,
+                        52.48788
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Richardplatz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2323-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2323-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.445393,
+                        52.473919
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Richardplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Richardplatz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Richardplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2326-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Richardplatz-wtm-aussenwerbung-berlin-2326-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.447046,
+                        52.474854
+                    ]
+                }
+            }
+        ]
+    },
+    "City Light S\u00e4ule": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light S\u00e4ule - Urbanstra\u00dfe",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light S\u00e4ule - Urbanstra\u00dfe</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Urbanstra\u00dfe<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2386-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Hermannplatz-wtm-aussenwerbung-berlin-2386-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42475,
+                        52.48804
                     ]
                 }
             }
