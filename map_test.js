@@ -1,10 +1,5 @@
 var map = L.map('map').setView([52.52, 13.405], 13); // Setzen Sie die Karte auf Berlin
 
-var myPopupText = "<h3>Litfaßsäule - Lausitzer Platz</h3><br>Werbeträger: Litfaßsäule<br>Ort: Lausitzer Platz<br>Standort: U-Bahnhof, etc.<br>Maße / Format:<br>beleuchtet / unbeleuchtet<br>Buchungsinterball: (wöchentlich, mtl., etc.)<br>Vorlaufzeit:<br><hr><br>"
-var myPopupImage = '<img src= "https://www.wtm-aussenwerbung.de/wp-content/uploads/Lausitzer-Platz-wtm-aussenwerbung-berlin-2366.jpg" style="width: 15vw; min-width: 200px;">'
-var myPopupImage2 = '<img src= "https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140021.jpg" style="width: 15vw; min-width: 200px;">'
-var myPopup = generatePopup(myPopupText,myPopupImage,myPopupImage2);
-
 var geoJsonMarkerOptions = {
     radius: 8,
     weight: 1,
@@ -22,15 +17,33 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var layerGroups = {
     "City-Light-Poster": {
         group: L.layerGroup(),
-        color: '#FF0000' // Rot
+        data: [],
+        color: '#ef476f'
     },
     "City-Light-Board": {
         group: L.layerGroup(),
-        color: '#00FF00' // Grün
+        data: [],
+        color: '#f78c6b'
     },
     "Großflächen": {
         group: L.layerGroup(),
-        color: '#0000FF' // Blau
+        data: [],
+        color: '#ffd166'
+    },
+    "Stromkasten": {
+        group: L.layerGroup(),
+        data: [],
+        color: '#06d6a0' 
+    },
+    "Litfaßsäule": {
+        group: L.layerGroup(),
+        data: [],
+        color: '#118ab2' 
+    },
+    "Plakatwerbung": {
+        group: L.layerGroup(),
+        data: [],
+        color: '#073b4c' 
     }
 };
 
@@ -55,15 +68,9 @@ L.Control.CustomLayerGroups = L.Control.extend({
 
                 input.layerGroupName = groupName;
                 input.group = group; // Save the group reference
-                //console.log("Added LayerGroup: " + input.groupName + " " + groupName)
+
                 label.innerHTML += '  ' + groupName;
-                //label.style.backgroundColor = backgroundColor;
-                label.style.padding = '10px';
-
-                
-                //container.appendChild(label);
-                
-
+                label.style.padding = '10px';             
             }
         }
         L.DomEvent.on(container, 'change', this._onChange, this);
@@ -112,64 +119,34 @@ var customLayerControl = L.control.customLayerGroups(options, {position: 'toprig
 map.addControl(customLayerControl);
 
 
+fetch('https://raw.githubusercontent.com/falkzoo/map_prototype/main/standort_daten.json')
+    .then(response => response.json())
+    .then(data => {
+        for (let groupName in data) {
+            if (groupName in layerGroups) {
+                layerGroups[groupName].data = packagePoints(data[groupName])
+                layerGroups[groupName].group.addLayer(layerGroups[groupName].data)
+            }
+        }
+    })
+    .catch(function(error) {
+        console.log(`This is the error: ${error}`)
+    })
 
-// Füllen Sie die Layer-Gruppen mit GeoJSON-Features
-var geoJsonData_clp = {
-    "type": "FeatureCollection",
-    "features": [
-        {"type": "Feature","properties":{"Name": "CLP1", "popupContent": myPopup, "Category": "clp" },"geometry": {"type": "Point","coordinates": [13.4115, 52.5237]}}
-    ]
-};
-var geoJsonData_clb = {
-    "type": "FeatureCollection",
-    "features": [
-        {"type": "Feature","properties":{"Name": "CLB1", "Category": "clb"},"geometry": {"type": "Point","coordinates": [13.3781, 52.5182]}}
-    ]
-};
-var geoJsonData_gf = {
-    "type": "FeatureCollection",
-    "features": [
-        {"type": "Feature","properties":{"Name": "GF1", "Category": "gf"},"geometry": {"type": "Point","coordinates": [13.3917, 52.4856]}}
-    ]
-};
-
-
-// GeoJSON-Layer erstellen und zur jeweiligen Layer-Gruppe hinzufügen
-var layer_clp = packagePoints(geoJsonData_clp);
-var layer_clb = packagePoints(geoJsonData_clb);
-var layer_gf = packagePoints(geoJsonData_gf);
-
-layerGroups["City-Light-Poster"].group.addLayer(layer_clp);
-layerGroups["City-Light-Board"].group.addLayer(layer_clb);
-layerGroups["Großflächen"].group.addLayer(layer_gf);
-
-function generatePopup(popupText,popupImage,popupImage2) {
-    var popupString = ""
-    popupString += '<div class="mCustomScrollbar" data-mcs-theme="rounded-dark">'
-    popupString += '<div class="cf">';
-    popupString += '<div>';
-    popupString += popupText;
-    popupString += '</div>';
-    popupString += '<div>';
-    popupString += popupImage;
-    popupString += popupImage2;
-    popupString += '</div>';
-    popupString += '</div>';
-    return popupString
-}
 
 function packagePoints(collection) {
     var geoJsonLayer = new L.geoJSON(collection, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, geoJsonMarkerOptions);
-
     },
     style: function(feature) {
-        console.log(feature.properties.Category)
         switch(feature.properties.Category) {
-            case 'clp': return { color : "red" };
-            case 'clb': return { color : "green" };
-            case 'gf': return { color : "blue" };
+            case "City-Light-Poster": return { color : '#ef476f' };
+            case "City-Light-Board": return { color : '#f78c6b' };
+            case 'Großflächen': return { color : '#ffd166' };
+            case 'Stromkasten': return { color : '#06d6a0' };
+            case 'Litfaßsäule': return { color : '#118ab2' };
+            case 'Plakatwerbung': return { color : '#073b4c'  };
         }
     },
     onEachFeature: function(feature, layer){
