@@ -6,36 +6,36 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Gro\u00dffl\u00e4chen - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet:<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2350.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2350.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Gro\u00dffl\u00e4chen"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": "13.41107, 52.50366"
+                    "coordinates": "[13.41107, 52.50366]"
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
                     "Name": "Gro\u00dffl\u00e4chen - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet:<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2347.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2347.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Gro\u00dffl\u00e4chen"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": "13.41093, 52.50389"
+                    "coordinates": "[13.41093, 52.50389]"
                 }
             },
             {
                 "type": "Feature",
                 "properties": {
                     "Name": "Gro\u00dffl\u00e4chen - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet:<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2349.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Moritzplatz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2349.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Gro\u00dffl\u00e4chen"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": "13.41093, 52.50389"
+                    "coordinates": "[13.41093, 52.50389]"
                 }
             }
         ]
@@ -47,12 +47,12 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Plakatwerbung auf dem Bahnhof - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatwerbung auf dem Bahnhof - Moritzplatz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Moritzplatz<br>Standort: U-Bahnhof<br>Ma\u00dfe: <br>Beleuchtet:nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2356.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2346.jpgstyle='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatwerbung auf dem Bahnhof - Moritzplatz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Moritzplatz<br>Standort: U-Bahnhof<br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2356.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2346.jpgstyle='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Plakatwerbung"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": "13.41096, 52.50355"
+                    "coordinates": "[13.41096, 52.50355]"
                 }
             }
         ]
@@ -64,12 +64,12 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Stromkasten - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet:nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2355.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Moritzplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: nein<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2355.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Stromkasten"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": "13.41096, 52.50355"
+                    "coordinates": "[13.41096, 52.50355]"
                 }
             }
         ]
@@ -81,12 +81,12 @@
                 "type": "Feature",
                 "properties": {
                     "Name": "Litfa\u00dfs\u00e4ule - Moritzplatz",
-                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Moritzplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet:<br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2351.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Moritzplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Moritzplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Moritzplatz-wtm-aussenwerbung-berlin-2351.jpgstyle='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/style='width: 15vw; min-width: 200px;'></div></div>",
                     "Category": "Litfa\u00dfs\u00e4ule"
                 },
                 "geometry": {
                     "type": "Point",
-                    "coordinates": "13.41096, 52.50355"
+                    "coordinates": "[13.41096, 52.50355]"
                 }
             }
         ]
