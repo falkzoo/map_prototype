@@ -76,6 +76,21 @@
                         52.48684
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Gro\u00dffl\u00e4chen - Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2436-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2436-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Gro\u00dffl\u00e4chen"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.561973,
+                        52.505917
+                    ]
+                }
             }
         ]
     },
@@ -109,6 +124,36 @@
                     "coordinates": [
                         13.42447,
                         52.48662
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Plakate an den Pfeilern - Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakate an den Pfeilern - Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2440-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2440-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.561791,
+                        52.505973
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Bahnhofswerbung U-Bhf Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Bahnhofswerbung U-Bhf Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2443-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2444-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.560498,
+                        52.505016
                     ]
                 }
             }
@@ -386,6 +431,111 @@
                         52.474436
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Mirbachplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Mirbachplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Mirbachplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2459-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.448355,
+                        52.5531
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Mirbachplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Mirbachplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Mirbachplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2460-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2460-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.448558,
+                        52.552702
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Mirbachplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Mirbachplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Mirbachplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2458-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2458-2-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.448853,
+                        52.553195
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Mirbachplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Mirbachplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Mirbachplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2457-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2456-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.44947,
+                        52.553022
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Mirbachplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Mirbachplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Mirbachplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2455-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2455-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.449245,
+                        52.552507
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Elsterwerdaer Platz - Wei\u00dfenh\u00f6her Str.",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Elsterwerdaer Platz - Wei\u00dfenh\u00f6her Str.</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Elsterwerdaer Platz - Wei\u00dfenh\u00f6her Str.<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2450-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2450-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.56061,
+                        52.50723
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Elsterwerdaer Platz - K\u00f6penicker Str.",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Elsterwerdaer Platz - K\u00f6penicker Str.</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Elsterwerdaer Platz - K\u00f6penicker Str.<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2449-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2449-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.56141,
+                        52.506968
+                    ]
+                }
             }
         ]
     },
@@ -556,6 +706,36 @@
                         52.474387
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Mirbachplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Mirbachplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Mirbachplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2454-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Mirbachplatz-wtm-aussenwerbung-berlin-2454-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.448789,
+                        52.552546
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2439-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2439-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.561394,
+                        52.506051
+                    ]
+                }
             }
         ]
     },
@@ -711,6 +891,21 @@
                         52.474854
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Elsterwerdaer Platz - K\u00f6penicker Str.",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Elsterwerdaer Platz - K\u00f6penicker Str.</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Elsterwerdaer Platz - K\u00f6penicker Str.<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2437-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2437-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.56193,
+                        52.506309
+                    ]
+                }
             }
         ]
     },
@@ -729,6 +924,61 @@
                     "coordinates": [
                         13.42475,
                         52.48804
+                    ]
+                }
+            }
+        ]
+    },
+    "City Light Poster": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Megalight - Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Megalight - Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: City Light Poster<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2434-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2434-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light Poster"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.562005,
+                        52.505773
+                    ]
+                }
+            }
+        ]
+    },
+    "Br\u00fcckenwerbung": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Br\u00fcckenwerbung Nord - Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Br\u00fcckenwerbung Nord - Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: Br\u00fcckenwerbung<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2447-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2447-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Br\u00fcckenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.561587,
+                        52.505924
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Br\u00fcckenwerbung S\u00fcd - Elsterwerdaer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Br\u00fcckenwerbung S\u00fcd - Elsterwerdaer Platz</h3><br> Werbetr\u00e4ger: Br\u00fcckenwerbung<br>Ort: Elsterwerdaer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2435-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Elsterwerdaer-Platz-wtm-aussenwerbung-berlin-2435-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Br\u00fcckenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.56164,
+                        52.505728
                     ]
                 }
             }
