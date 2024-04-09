@@ -91,6 +91,51 @@
                         52.505917
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Gro\u00dffl\u00e4che - Alboinstra\u00dfe",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4che - Alboinstra\u00dfe</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Alboinstra\u00dfe<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt1-plakatwerbung-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt1-plakatwerbung-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Gro\u00dffl\u00e4chen"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.369621,
+                        52.461321
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Gro\u00dffl\u00e4chen - Breslauer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen - Breslauer Platz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Breslauer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2511-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2511-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Gro\u00dffl\u00e4chen"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.335106,
+                        52.471645
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Gro\u00dffl\u00e4chen am Parkplatz - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Gro\u00dffl\u00e4chen am Parkplatz - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Gro\u00dffl\u00e4chen<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2396-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2396-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Gro\u00dffl\u00e4chen"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.342772,
+                        52.478445
+                    ]
+                }
             }
         ]
     },
@@ -154,6 +199,96 @@
                     "coordinates": [
                         13.560498,
                         52.505016
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Bahnhofswerbung - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Bahnhofswerbung - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2408-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2407-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.342649,
+                        52.478102
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Plakatierung Br\u00fcckens\u00e4ulen - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatierung Br\u00fcckens\u00e4ulen - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2403-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2404-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.344344,
+                        52.478445
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Bahnhofsmedien - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Bahnhofsmedien - Bundesplatz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2431.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2432-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328862,
+                        52.477579
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Bahnhofswerbung - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Bahnhofswerbung - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_141517-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_141517-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.314244,
+                        52.490385
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Plakatwerbung in der U-Bahn - Theodor-Heuss-Platz ",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Plakatwerbung in der U-Bahn - Theodor-Heuss-Platz </h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2311-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2306-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.272595,
+                        52.509887
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Wartehalle - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Wartehalle - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Plakatwerbung<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2296-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2296-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Plakatwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.271903,
+                        52.508895
                     ]
                 }
             }
@@ -278,7 +413,7 @@
                     "type": "Point",
                     "coordinates": [
                         13.431328,
-                        52.00689
+                        52.50689
                     ]
                 }
             },
@@ -536,6 +671,291 @@
                         52.506968
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Alboinstra\u00dfe",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Alboinstra\u00dfe</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Alboinstra\u00dfe<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt5-stromkasten-Kopie-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt5-stromkasten2-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.370088,
+                        52.458405
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Alboinstra\u00dfe",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Alboinstra\u00dfe</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Alboinstra\u00dfe<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt4-wand-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt4-wand-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.369723,
+                        52.46121
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Walther-Schreiber-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Walther-Schreiber-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Walther-Schreiber-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2494-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2494-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328496,
+                        52.464629
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Walther-Schreiber-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Walther-Schreiber-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Walther-Schreiber-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2492-kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2492-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328251,
+                        52.464923
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Walther-Schreiber-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Walther-Schreiber-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Walther-Schreiber-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2491-kopie2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2491-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328143,
+                        52.465292
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Breslauer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Breslauer Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Breslauer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2510-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2509-Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.334876,
+                        52.471433
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Breslauer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Breslauer Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Breslauer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2514-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2514-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.335782,
+                        52.471554
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2413-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2413-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.343899,
+                        52.478755
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Bundesplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2423Kopie.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2423-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328846,
+                        52.478582
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Bundesplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2428-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2428-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328224,
+                        52.478713
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten Mittelinsel - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten Mittelinsel - Bundesplatz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2425-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2425-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328524,
+                        52.478971
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140719-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140719-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.31293,
+                        52.491509
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_141959-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_141959-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.31426,
+                        52.490581
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140135-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140135-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.315215,
+                        52.490878
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2318-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2318-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.273142,
+                        52.508412
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2293-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2293-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.273662,
+                        52.508879
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2292-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2292-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.274161,
+                        52.509675
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2291-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2291-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.27407,
+                        52.509842
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Stromkasten - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Stromkasten - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Stromkasten<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2284-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2284-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Stromkasten"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.270862,
+                        52.509375
+                    ]
+                }
             }
         ]
     },
@@ -736,6 +1156,111 @@
                         52.506051
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Breslauer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Breslauer Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Breslauer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2508-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2508-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.334929,
+                        52.471557
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Bundesplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2402-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2402-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.327977,
+                        52.478706
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Bundesplatz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2424.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2424-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.329002,
+                        52.478994
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140600-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140600-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.312281,
+                        52.491218
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140247-1-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140247-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.314432,
+                        52.491515
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2295.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2295-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.273378,
+                        52.508438
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Litfa\u00dfs\u00e4ule - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Litfa\u00dfs\u00e4ule - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Litfa\u00dfs\u00e4ule<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2285-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2285-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Litfa\u00dfs\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.271179,
+                        52.510106
+                    ]
+                }
             }
         ]
     },
@@ -799,6 +1324,96 @@
                     "coordinates": [
                         13.42514,
                         52.48734
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Walther-Schreiber-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Walther-Schreiber-Platz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Walther-Schreiber-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2493-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2493-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328229,
+                        52.464717
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Walther-Schreiber-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Walther-Schreiber-Platz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Walther-Schreiber-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2489-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2489-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328374,
+                        52.465067
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Breslauer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Breslauer Platz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Breslauer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2507-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2507-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.335364,
+                        52.471854
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2405-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2405-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.344269,
+                        52.478647
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140839-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140839-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.313166,
+                        52.490944
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Uhrenwerbung - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Uhrenwerbung - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Uhrenwerbung<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2298-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2299-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Uhrenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.271667,
+                        52.508944
                     ]
                 }
             }
@@ -906,6 +1521,156 @@
                         52.506309
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Alboinstra\u00dfe",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Alboinstra\u00dfe</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Alboinstra\u00dfe<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt1-laternenwerbung-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-alboinstr-punkt1-laternenwerbung-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.369718,
+                        52.4614
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Breslauer Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Breslauer Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Breslauer Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2512-Kopie4.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/breslauer-platz-wtm-aussenwerbung-berlin-2512-Kopie4-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.335471,
+                        52.471645
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Bundesplatz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2420.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2420-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.32875,
+                        52.478461
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild Mittelinsel - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild Mittelinsel - Bundesplatz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2418.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2418-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.32854,
+                        52.4787
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_135646-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_135612-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.315408,
+                        52.489657
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140021-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140021-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.315467,
+                        52.49093
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenschild Mittelinsel - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenschild Mittelinsel - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140457-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140457-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.312796,
+                        52.491381
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenwerbung - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenwerbung - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2319.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2319-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.272625,
+                        52.508542
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenwerbung - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenwerbung - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2286-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2286-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.271436,
+                        52.510217
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Mastenwerbung - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Mastenwerbung - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Mastenschild<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2283-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2283-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Mastenschild"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.27039,
+                        52.509303
+                    ]
+                }
             }
         ]
     },
@@ -926,6 +1691,96 @@
                         52.48804
                     ]
                 }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light S\u00e4ule - Walther-Schreiber-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light S\u00e4ule - Walther-Schreiber-Platz</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Walther-Schreiber-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2490-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung_walter-schreiber-platz_2490-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328615,
+                        52.46509
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light S\u00e4ule - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light S\u00e4ule - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2402-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2402-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.343775,
+                        52.478572
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light Poster - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light Poster - Bundesplatz</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2419.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2419-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328508,
+                        52.478367
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light S\u00e4ule - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light S\u00e4ule - Bundesplatz</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2426.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2426-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.328127,
+                        52.478909
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light S\u00e4ule - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light S\u00e4ule - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140522-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_140522-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.312667,
+                        52.491254
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light S\u00e4ule - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light S\u00e4ule - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: City Light S\u00e4ule<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_135358.jpg.webp style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_135358-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light S\u00e4ule"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.314191,
+                        52.490209
+                    ]
+                }
             }
         ]
     },
@@ -944,6 +1799,51 @@
                     "coordinates": [
                         13.562005,
                         52.505773
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "CLP S-Bahn Eingang - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>CLP S-Bahn Eingang - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: City Light Poster<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2401-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2401-2-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light Poster"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.343427,
+                        52.478409
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light Poster - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light Poster - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: City Light Poster<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_141034.jpg.webp style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light Poster"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.313965,
+                        52.490522
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "City Light Poster - Fehrbelliner Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>City Light Poster - Fehrbelliner Platz</h3><br> Werbetr\u00e4ger: City Light Poster<br>Ort: Fehrbelliner Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_1359012.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Fehrbelliner-Platz-wtm-aussenwerbung-berlin-20230814_135901-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "City Light Poster"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.315371,
+                        52.490764
                     ]
                 }
             }
@@ -979,6 +1879,76 @@
                     "coordinates": [
                         13.56164,
                         52.505728
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Br\u00fcckenwerbung - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Br\u00fcckenwerbung - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Br\u00fcckenwerbung<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2399-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2399-4.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Br\u00fcckenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.344006,
+                        52.478419
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Br\u00fcckenwerbung - Bundesplatz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Br\u00fcckenwerbung - Bundesplatz</h3><br> Werbetr\u00e4ger: Br\u00fcckenwerbung<br>Ort: Bundesplatz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2433.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/bundesplatz-wtm-aussenwerbung-berlin-2433-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Br\u00fcckenwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.32854,
+                        52.478563
+                    ]
+                }
+            }
+        ]
+    },
+    "Taxiwerbung": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Taxiwerbung - Innsbrucker Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Taxiwerbung - Innsbrucker Platz</h3><br> Werbetr\u00e4ger: Taxiwerbung<br>Ort: Innsbrucker Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2397-3.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Insbrucker-Platz-wtm-aussenwerbung-berlin-2397-2-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Taxiwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.342429,
+                        52.478605
+                    ]
+                }
+            }
+        ]
+    },
+    "Kreide Stencil": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Kreide Stencil - Theodor-Heuss-Platz",
+                    "popupContent": "<div class='mCustomScrollbar' data-mcs-theme='rounded-dark'><div class='cf'><div><h3>Kreide Stencil - Theodor-Heuss-Platz</h3><br> Werbetr\u00e4ger: Kreide Stencil<br>Ort: Theodor-Heuss-Platz<br>Standort: <br>Ma\u00dfe: <br>Beleuchtet: <br>Buchungsinterball: <br>Vorlaufzeit: <br><hr><br></div><div><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2294-1.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/Theodor-Heuss-Platz-wtm-aussenwerbung-berlin-2294-2.jpg style='width: 15vw; min-width: 200px;'><img src= https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp style='width: 15vw; min-width: 200px;'></div></div>",
+                    "Category": "Kreide Stencil"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.272713,
+                        52.508768
                     ]
                 }
             }
