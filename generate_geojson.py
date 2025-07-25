@@ -36,7 +36,8 @@ def generate_info_section(row):
     Buchungsinterball: {row["Buchungsintervall"]}<br>
     Vorlaufzeit: {row["Vorlaufzeit"]}<br>
     <br>
-    """ + generate_image_html("wtm-aussenwerbung.webp")
+    <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'>
+    """
 
 
 def generate_images_section(row):
