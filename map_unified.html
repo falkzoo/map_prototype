@@ -13,252 +13,18 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
       crossorigin=""
     ></script>
-    <link
-      rel="stylesheet"
-      href="//unpkg.com/leaflet-gesture-handling/dist/leaflet-gesture-handling.min.css"
-      type="text/css"
-    />
-    <script src="//unpkg.com/leaflet-gesture-handling"></script>
-
-    <style>
-      h1 {
-        text-align: center;
-      }
-
-      #map {
-        height: 500px;
-      }
-
-      /* Radio button styles */
-      .radio-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin: 20px 0;
-        padding: 20px;
-        background: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-      }
-
-      .radio-label {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        padding: 10px 15px;
-        background: #f5f5f5;
-        border-radius: 20px;
-        transition: all 0.3s ease;
-        border: 2px solid transparent;
-      }
-
-      .radio-label:hover {
-        background: #e0e0e0;
-      }
-
-      .radio-label input[type="radio"] {
-        margin-right: 8px;
-      }
-
-      .radio-label input[type="radio"]:checked + .button-label {
-        font-weight: bold;
-      }
-
-      .radio-label:has(input[type="radio"]:checked) {
-        background: #007cba;
-        color: white;
-        border-color: #005a85;
-      }
-
-      .button-label {
-        font-size: 14px;
-        transition: all 0.3s ease;
-      }
-
-      /* Image next to Text*/
-      .cf img {
-        float: left;
-      }
-      .cf div {
-        float: left;
-      }
-
-      .cf:before,
-      .cf:after {
-        content: " "; /* 1 */
-        display: table; /* 2 */
-      }
-
-      .cf:after {
-        clear: both;
-      }
-
-      /* Bezirkoverlay Style */
-      .info {
-        padding: 6px 8px;
-        font-family: inherit;
-        background: rgba(255, 255, 255, 0.8);
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-        border-radius: 5px;
-      }
-      .info h4 {
-        margin: 0 0 5px;
-        color: #777;
-      }
-
-      /* Scrollbar Style*/
-      *::-webkit-scrollbar {
-        scrollbar-width: thin;
-        scrollbar-color: black grey;
-      }
-
-      /* width */
-      *::-webkit-scrollbar {
-        width: 10px;
-        border-radius: 2px;
-      }
-
-      /* Track */
-      *::-webkit-scrollbar-track {
-        background: #f1f1f1;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-      }
-
-      /* Handle */
-      *::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 10px;
-      }
-
-      /* Handle on hover */
-      *::-webkit-scrollbar-thumb:hover {
-        background: #555;
-      }
-
-      /* Basisstil für die Checkbox */
-      form {
-        display: grid;
-        place-content: center;
-        min-height: 100vh;
-      }
-
-      .form-control {
-        font-family: inherit;
-        font-size: 1.3rem;
-        font-weight: bold;
-        line-height: 1.1;
-        background-color: transparent;
-        display: grid;
-        grid-template-columns: 1em auto;
-        gap: 0.5em;
-        border-radius: inherit;
-      }
-
-      .custom-control {
-        background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 10px;
-      }
-
-      .toggle-button1 {
-        width: 100%;
-        padding: 10px;
-        background: rgba(255, 255, 255, 0.9);
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-weight: bold;
-        margin-bottom: 5px;
-      }
-
-      .toggle-button1:hover {
-        background: rgba(255, 255, 255, 1);
-      }
-
-      .checkbox-container {
-        max-height: 200px;
-        overflow-y: auto;
-      }
-
-      .custom-control-input[type="checkbox"] {
-        /* Add if not using autoprefixer */
-        -webkit-appearance: none;
-        appearance: none;
-        /* For iOS < 15 to remove gradient background */
-        background-color: #ffffff00;
-        /* Not removed via appearance */
-        margin: 0;
-        font-family: inherit;
-        color: currentColor;
-        width: 1.15em;
-        height: 1.15em;
-        border: 0.15em solid currentColor;
-        border-radius: 0.15em;
-        transform: translateY(-0.075em);
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-      }
-
-      input[type="checkbox"] {
-        /* Add if not using autoprefixer */
-        -webkit-appearance: none;
-        appearance: none;
-        /* For iOS < 15 to remove gradient background */
-        background-color: #fff;
-        /* Not removed via appearance */
-        margin: 0;
-        font-family: inherit;
-        color: currentColor;
-        width: 1.15em;
-        height: 1.15em;
-        border: 0.15em solid currentColor;
-        border-radius: 0.15em;
-        transform: translateY(-0.075em);
-        display: grid;
-        grid-column: 1, 2;
-        place-content: center;
-      }
-
-      input[type="checkbox"]::before {
-        content: "";
-        width: 0.65em;
-        height: 0.65em;
-        transform: scale(0);
-        transition: 120ms transform ease-in-out;
-        box-shadow: inset 1em 1em currentColor;
-      }
-
-      input[type="checkbox"]:checked::before {
-        transform: scale(1);
-        background-color: currentColor;
-      }
-
-      /* Leaflet Popup Style*/
-      .custom-popup .leaflet-popup-content-wrapper {
-        background: rgba(255, 255, 255, 0.8);
-        color: #000000;
-        font-size: 14px;
-        line-height: 22px;
-        margin: 1px;
-      }
-      .custom-popup .leaflet-popup-content-wrapper a {
-        color: rgba(255, 255, 255, 0.5);
-      }
-      .custom-popup .leaflet-popup-content {
-        max-height: 400px;
-        max-width: max-content;
-        overflow-x: hidden;
-        overflow-y: scroll;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <div class="radio-wrap" id="buttons">
+    <!-- District Selection Controls -->
+    <div class="radio-wrap" id="district-selector">
       <label class="radio-label">
         <input
           type="radio"
           name="location"
           id="Friedrichshain-Kreuzberg"
-          onclick="handleButtonClick(this)"
+          onclick="selectDistrict(this)"
         /><span class="button-label">Friedrichshain-Kreuzberg</span>
       </label>
       <label class="radio-label">
@@ -266,7 +32,7 @@
           type="radio"
           name="location"
           id="Charlottenburg-Wilmersdorf"
-          onclick="handleButtonClick(this)"
+          onclick="selectDistrict(this)"
         /><span class="button-label">Charlottenburg-Wilmersdorf</span>
       </label>
       <label class="radio-label">
@@ -274,7 +40,7 @@
           type="radio"
           name="location"
           id="Marzahn-Hellersdorf"
-          onclick="handleButtonClick(this)"
+          onclick="selectDistrict(this)"
         /><span class="button-label">Marzahn-Hellersdorf</span>
       </label>
       <label class="radio-label">
@@ -282,7 +48,7 @@
           type="radio"
           name="location"
           id="Neukölln"
-          onclick="handleButtonClick(this)"
+          onclick="selectDistrict(this)"
         /><span class="button-label">Neukölln</span>
       </label>
       <label class="radio-label">
@@ -290,7 +56,7 @@
           type="radio"
           name="location"
           id="Pankow"
-          onclick="handleButtonClick(this)"
+          onclick="selectDistrict(this)"
         /><span class="button-label">Pankow</span>
       </label>
       <label class="radio-label">
@@ -298,75 +64,98 @@
           type="radio"
           name="location"
           id="Tempelhof-Schöneberg"
-          onclick="handleButtonClick(this)"
+          onclick="selectDistrict(this)"
         /><span class="button-label">Tempelhof-Schöneberg</span>
       </label>
     </div>
 
+    <!-- Map Container -->
     <div class="custom-popup" id="map"></div>
 
     <script>
-      var map = L.map("map", {
+      // ==========================================================================
+      // MAP INITIALIZATION AND CONFIGURATION
+      // ==========================================================================
+
+      // Initialize map with Berlin coordinates
+      const berlinMap = L.map("map", {
         center: [52.51, 13.39],
         zoom: 11,
-        scrollWheelZoom: false,
+        scrollWheelZoom: "center", // Enable with better behavior
       });
 
-      var mapContainer = map.getContainer();
+      // Configure scroll wheel zoom behavior - require Ctrl key for zooming
+      const mapContainer = berlinMap.getContainer();
+
+      // Create zoom instruction element
+      const zoomInstruction = document.createElement("div");
+      zoomInstruction.className = "zoom-instruction";
+      zoomInstruction.textContent = "Strg + Mausrad zum Zoomen";
+      mapContainer.appendChild(zoomInstruction);
+
+      let instructionTimeout;
+
+      // Override default scroll wheel behavior
+      berlinMap.scrollWheelZoom.disable();
 
       mapContainer.addEventListener(
-        "focus",
-        function () {
-          map.scrollWheelZoom.enable();
+        "wheel",
+        (e) => {
+          // Only zoom if Ctrl key is held down
+          if (e.ctrlKey) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Hide instruction if visible
+            zoomInstruction.style.opacity = "0";
+
+            // Determine zoom direction
+            const delta = e.deltaY > 0 ? -1 : 1;
+            const newZoom = berlinMap.getZoom() + delta;
+
+            // Zoom to mouse position
+            const mousePoint = berlinMap.mouseEventToContainerPoint(e);
+            const mouseLatLng = berlinMap.containerPointToLatLng(mousePoint);
+
+            berlinMap.setZoomAround(mouseLatLng, newZoom);
+          } else {
+            // Show instruction when trying to scroll without Ctrl
+            e.preventDefault();
+            e.stopPropagation();
+
+            zoomInstruction.style.opacity = "1";
+
+            // Clear existing timeout
+            if (instructionTimeout) {
+              clearTimeout(instructionTimeout);
+            }
+
+            // Hide instruction after 2 seconds
+            instructionTimeout = setTimeout(() => {
+              zoomInstruction.style.opacity = "0";
+            }, 2000);
+          }
         },
-        true,
+        { passive: false },
       );
 
-      mapContainer.addEventListener(
-        "blur",
-        function () {
-          map.scrollWheelZoom.disable();
-        },
-        true,
-      );
+      // ==========================================================================
+      // CONSTANTS AND CONFIGURATION
+      // ==========================================================================
 
-      // Make the map container focusable
-      mapContainer.tabIndex = "0";
-
-      const buttons = document.querySelectorAll(
-        '.radio-label input[type="radio"]',
-      );
-      var geojsonBezirke;
-
-      var geoJsonMarkerOptions = {
-        color: "black",
-        radius: 8,
-        weight: 1,
-        opacity: 1,
-        interactive: true,
-        fillOpacity: 1,
+      // District statistics (number of advertising displays per district)
+      const DISTRICT_STATISTICS = {
+        "Friedrichshain-Kreuzberg": 27,
+        "Charlottenburg-Wilmersdorf": 39,
+        "Marzahn-Hellersdorf": 10,
+        Neukölln: 17,
+        Pankow: 6,
+        "Steglitz-Zehlendorf": 0,
+        "Tempelhof-Schöneberg": 22,
       };
 
-      // Hinzufügen der Basiskarte
-      L.tileLayer("https://osm.rrze.fau.de/osmhd/{z}/{x}/{y}.png", {
-        attribution:
-          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      }).addTo(map);
-
-      // Erstellen des Besizrksoverlays
-      fetch(
-        "https://raw.githubusercontent.com/funkeinteraktiv/Berlin-Geodaten/master/berlin_bezirke.geojson",
-      )
-        .then((response) => response.json())
-        .then((data) => {
-          geojsonBezirke = packageBezirke(data).addTo(map);
-        })
-        .catch(function (error) {
-          console.log(`Error processing Bezirk data: ${error}`);
-        });
-
-      // Definieren Sie Ihre Layer-Gruppen mit individuellen Farben
-      var layerGroups = {
+      // Advertising type layer groups with colors
+      const ADVERTISING_LAYERS = {
         Brückenwerbung: { group: L.layerGroup(), color: "#54478c" },
         "City Light Poster": { group: L.layerGroup(), color: "#2c699a" },
         "City Light Säule": { group: L.layerGroup(), color: "#0db39e" },
@@ -381,80 +170,145 @@
         Uhrenwerbung: { group: L.layerGroup(), color: "#37474F" },
       };
 
-      var bezirke = {
-        "Friedrichshain-Kreuzberg": 27,
-        "Charlottenburg-Wilmersdorf": 39,
-        "Marzahn-Hellersdorf": 10,
-        Neukölln: 17,
-        Pankow: 6,
-        "Steglitz-Zehlendorf": 0,
-        "Tempelhof-Schöneberg": 22,
+      // Marker styling options
+      const MARKER_OPTIONS = {
+        color: "black",
+        radius: 8,
+        weight: 1,
+        opacity: 1,
+        interactive: true,
+        fillOpacity: 1,
       };
 
-      // Definieren Sie die Funktion zur Erstellung der benutzerdefinierten Schichtenkontrolle
+      // Data source URLs
+      const DATA_SOURCES = {
+        districts:
+          "https://raw.githubusercontent.com/funkeinteraktiv/Berlin-Geodaten/master/berlin_bezirke.geojson",
+        advertisingData:
+          "https://raw.githubusercontent.com/falkzoo/xlsx_to_json/main/standort_daten.json",
+      };
+
+      // ==========================================================================
+      // GLOBAL VARIABLES
+      // ==========================================================================
+
+      let districtBoundariesLayer;
+      const districtButtons = document.querySelectorAll(
+        '.radio-label input[type="radio"]',
+      );
+
+      // ==========================================================================
+      // BASE MAP SETUP
+      // ==========================================================================
+
+      // Add base tile layer
+      L.tileLayer("https://osm.rrze.fau.de/osmhd/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(berlinMap);
+
+      // Create custom map panes for proper layering
+      berlinMap.createPane("districtPane");
+      berlinMap.getPane("districtPane").style.zIndex = 201;
+
+      berlinMap.createPane("markerPane");
+      berlinMap.getPane("markerPane").style.zIndex = 600;
+
+      // ==========================================================================
+      // DISTRICT INFORMATION CONTROL
+      // ==========================================================================
+
+      const districtInfoControl = L.control();
+
+      districtInfoControl.onAdd = function (map) {
+        this._div = L.DomUtil.create("div", "info");
+        this.update();
+        return this._div;
+      };
+
+      districtInfoControl.update = function (districtProperties) {
+        this._div.innerHTML = districtProperties
+          ? `<b>${districtProperties.name}</b><br />Anzahl der Werbeträger: ${DISTRICT_STATISTICS[districtProperties.name]}`
+          : "Wähle einen Bezirk";
+      };
+
+      districtInfoControl.setPosition("bottomleft");
+      districtInfoControl.addTo(berlinMap);
+
+      // ==========================================================================
+      // LAYER CONTROL SETUP
+      // ==========================================================================
+
+      // Custom layer control for advertising types
       L.control.customLayerGroups = function (options) {
         return new L.Control.CustomLayerGroups(options);
       };
 
       L.Control.CustomLayerGroups = L.Control.extend({
         onAdd: function (map) {
-          var container = L.DomUtil.create("div", "leaflet-bar custom-control");
-          var toggleButton = L.DomUtil.create(
+          const container = L.DomUtil.create(
+            "div",
+            "leaflet-bar custom-control",
+          );
+          const toggleButton = L.DomUtil.create(
             "button",
             "toggle-button1",
             container,
           );
-          var checkboxContainer = L.DomUtil.create(
+          const checkboxContainer = L.DomUtil.create(
             "div",
             "checkbox-container",
             container,
           );
 
-          checkboxContainer.style.display = "none";
-          toggleButton.innerHTML = "▼";
-
+          checkboxContainer.style.display = "block";
+          toggleButton.innerHTML = "▲";
           this._inputs = {};
 
-          for (var groupName in this.options) {
+          // Create checkboxes for each advertising layer
+          for (const layerName in this.options) {
             if (
-              this.options.hasOwnProperty(groupName) &&
-              this.options[groupName].group instanceof L.LayerGroup
+              this.options.hasOwnProperty(layerName) &&
+              this.options[layerName].group instanceof L.LayerGroup
             ) {
-              var group = this.options[groupName].group;
-              var checked = group._map ? "checked" : "";
-              var backgroundColor = this.options[groupName].color;
+              const layerGroup = this.options[layerName].group;
+              const isChecked = layerGroup._map ? "checked" : "";
+              const layerColor = this.options[layerName].color;
 
-              var label = L.DomUtil.create(
+              const label = L.DomUtil.create(
                 "label",
                 "form-control",
                 checkboxContainer,
               );
-              var input = this._createCheckbox(
+              const checkbox = this._createCheckbox(
                 "input",
                 "checkbox",
                 label,
-                checked,
-                backgroundColor,
-                groupName,
+                isChecked,
+                layerColor,
+                layerName,
               );
 
-              input.layerGroupName = groupName;
-              input.group = group; // Save the group reference
+              checkbox.layerGroupName = layerName;
+              checkbox.group = layerGroup;
 
-              label.innerHTML += "  " + groupName;
+              label.innerHTML += "  " + layerName;
               label.style.padding = "10px";
             }
           }
-          L.DomEvent.on(container, "change", this._onChange, this);
-          L.DomEvent.on(toggleButton, "click", function () {
-            if (checkboxContainer.style.display === "none") {
-              checkboxContainer.style.display = "block";
-              toggleButton.innerHTML = "▲"; // Change to up arrow when open
-            } else {
-              checkboxContainer.style.display = "none";
-              toggleButton.innerHTML = "▼"; // Change to down arrow when closed
-            }
+
+          // Event listeners
+          L.DomEvent.on(container, "change", this._onLayerToggle, this);
+          L.DomEvent.on(toggleButton, "click", () => {
+            const isHidden = checkboxContainer.style.display === "none";
+            checkboxContainer.style.display = isHidden ? "block" : "none";
+            toggleButton.innerHTML = isHidden ? "▲" : "▼";
           });
+
+          // Prevent map interactions when clicking on the control
+          L.DomEvent.disableClickPropagation(container);
+          L.DomEvent.disableScrollPropagation(container);
+
           return container;
         },
 
@@ -464,140 +318,117 @@
           container,
           checked,
           color,
-          groupName,
+          layerName,
         ) {
-          var input = L.DomUtil.create(type, className, container);
+          const input = L.DomUtil.create(type, className, container);
 
           input.type = "checkbox";
           input.defaultChecked = checked;
           input.checked = checked;
-          input.layerGroupName = groupName;
+          input.layerGroupName = layerName;
           input.control = this;
           input.style.color = color;
 
           return input;
         },
 
-        _onChange: function (event) {
+        _onLayerToggle: function (event) {
           event.preventDefault();
-          var input = event.target;
-          var groupName = input.parentElement.innerText.trim();
-          var group = layerGroups[groupName].group;
+          const checkbox = event.target;
+          const layerName = checkbox.parentElement.innerText.trim();
+          const layerGroup = ADVERTISING_LAYERS[layerName]?.group;
 
-          if (group) {
-            if (input.checked) {
-              map.addLayer(group);
+          if (layerGroup) {
+            if (checkbox.checked) {
+              berlinMap.addLayer(layerGroup);
             } else {
-              map.removeLayer(group);
+              berlinMap.removeLayer(layerGroup);
             }
           } else {
-            console.error("Layer group not found:", groupName);
+            console.error("Layer group not found:", layerName);
           }
         },
       });
 
-      var options = { layers: {} };
-      // Fügen Sie die Layer-Gruppen der Karte hinzu und erstellen Sie die Checkboxen mit individuellen Farben
-      for (var groupName in layerGroups) {
-        layerGroups[groupName].group.addTo(map);
-        options[groupName] = {
-          group: layerGroups[groupName].group,
-          color: layerGroups[groupName].color,
+      // Initialize and add layer control
+      const layerControlOptions = {};
+      for (const layerName in ADVERTISING_LAYERS) {
+        ADVERTISING_LAYERS[layerName].group.addTo(berlinMap);
+        layerControlOptions[layerName] = {
+          group: ADVERTISING_LAYERS[layerName].group,
+          color: ADVERTISING_LAYERS[layerName].color,
         };
       }
-      var customLayerControl = L.control.customLayerGroups(options, {
-        position: "top right",
-        className: "custom-control-input",
-      });
-      map.addControl(customLayerControl);
 
-      /* Werbetraeger Daten von Github ziehen */
-      fetch(
-        "https://raw.githubusercontent.com/falkzoo/xlsx_to_json/main/standort_daten.json",
-      )
+      const customLayerControl = L.control.customLayerGroups(
+        layerControlOptions,
+        {
+          position: "top right",
+          className: "custom-control-input",
+        },
+      );
+      berlinMap.addControl(customLayerControl);
+
+      // ==========================================================================
+      // DATA LOADING AND PROCESSING
+      // ==========================================================================
+
+      // Load district boundaries
+      fetch(DATA_SOURCES.districts)
         .then((response) => response.json())
-        .then((data) => {
-          for (let groupName in data) {
-            if (groupName in layerGroups) {
-              layerGroups[groupName].group.addLayer(
-                packagePoints(data[groupName]),
+        .then((geoJsonData) => {
+          districtBoundariesLayer =
+            createDistrictLayer(geoJsonData).addTo(berlinMap);
+        })
+        .catch((error) => {
+          console.error("Error loading district data:", error);
+        });
+
+      // Load advertising location data
+      fetch(DATA_SOURCES.advertisingData)
+        .then((response) => response.json())
+        .then((advertisingData) => {
+          for (const layerName in advertisingData) {
+            if (layerName in ADVERTISING_LAYERS) {
+              ADVERTISING_LAYERS[layerName].group.addLayer(
+                createPointLayer(advertisingData[layerName]),
               );
             }
           }
         })
-        .catch(function (error) {
-          console.log(`Error processing standort data: ${error}`);
+        .catch((error) => {
+          console.error("Error loading advertising data:", error);
         });
 
-      /* Bezirks Info Feld */
-      var info = L.control();
+      // ==========================================================================
+      // LAYER CREATION FUNCTIONS
+      // ==========================================================================
 
-      info.onAdd = function (map) {
-        this._div = L.DomUtil.create("div", "info"); // create a div with a class "info"
-        this.update();
-        return this._div;
-      };
-
-      // method that we will use to update the control based on feature properties passed
-      info.update = function (props) {
-        this._div.innerHTML = props
-          ? "<b>" +
-            props.name +
-            "</b><br />" +
-            "Anzahl der Werbeträger: " +
-            bezirke[props.name]
-          : "Wähle einen Bezirk";
-      };
-
-      info.setPosition("bottomleft");
-      info.addTo(map);
-
-      /* Funktionen */
-
-      // Create a custom pane for bezirk layers
-      map.createPane("bezirkPane");
-      map.getPane("bezirkPane").style.zIndex = 201; // Lower z-index
-
-      // Create a custom pane for marker layers
-      map.createPane("markerPane");
-      map.getPane("markerPane").style.zIndex = 600; // Higher z-index
-
-      function packageBezirke(collection) {
-        var geoJsonLayer = new L.geoJSON(collection, {
-          style: function () {
-            return {
-              color: "darkgreen",
-              opacity: 1,
-              fillOpacity: 0,
-              weight: 2,
-              dashArray: "10",
-            };
-          },
-          pane: "bezirkPane",
+      function createDistrictLayer(geoJsonData) {
+        return new L.geoJSON(geoJsonData, {
+          style: () => ({
+            color: "darkgreen",
+            opacity: 1,
+            fillOpacity: 0,
+            weight: 2,
+            dashArray: "10",
+          }),
+          pane: "districtPane",
           onEachFeature: function (feature, layer) {
-            layer.on({
-              //mouseover: highlightFeature,
-              //mouseout: resetHighlight,
-              //click: zoomToFeature
-            });
+            // Event handlers can be added here if needed
           },
         });
-
-        return geoJsonLayer;
       }
 
-      function packagePoints(collection) {
-        var geoJsonLayer = new L.geoJSON(collection, {
-          pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, geoJsonMarkerOptions);
-          },
+      function createPointLayer(geoJsonData) {
+        return new L.geoJSON(geoJsonData, {
+          pointToLayer: (feature, latlng) =>
+            L.circleMarker(latlng, MARKER_OPTIONS),
           pane: "markerPane",
-          style: function (feature) {
-            return {
-              fillColor: layerGroups[feature.properties.Category].color,
-            };
-          },
-          onEachFeature: function (feature, layer) {
+          style: (feature) => ({
+            fillColor: ADVERTISING_LAYERS[feature.properties.Category].color,
+          }),
+          onEachFeature: (feature, layer) => {
             if (feature.properties && feature.properties.popupContent) {
               layer.bindPopup(feature.properties.popupContent, {
                 maxWidth: "auto",
@@ -605,68 +436,71 @@
             }
           },
         });
-
-        return geoJsonLayer;
       }
 
-      // Event listener for each button
-      buttons.forEach((button) => {
-        button.addEventListener("change", function () {
-          if (this.checked) {
-            handleButtonClick(this);
-          }
-        });
-      });
+      // ==========================================================================
+      // DISTRICT INTERACTION FUNCTIONS
+      // ==========================================================================
 
-      function handleButtonClick(button) {
-        var bezirk = button.id;
+      function selectDistrict(radioButton) {
+        const districtName = radioButton.id;
 
-        // Find the layer corresponding to the clicked district
-        geojsonBezirke.eachLayer(function (layer) {
-          if (layer.feature.properties.name === bezirk) {
-            // Zoom to and highlight the district
-            map.fitBounds(layer.getBounds());
-            highlightFeature({ target: layer }); // You might need to adjust this depending on your highlight logic
-            info.update(layer.feature.properties);
+        districtBoundariesLayer.eachLayer((layer) => {
+          if (layer.feature.properties.name === districtName) {
+            berlinMap.fitBounds(layer.getBounds());
+            highlightDistrict({ target: layer });
+            districtInfoControl.update(layer.feature.properties);
           } else {
-            // Optionally reset style if you want to remove highlighting from other districts
-            resetHighlight({ target: layer });
+            resetDistrictHighlight({ target: layer });
           }
         });
       }
 
-      function highlightFeature(e) {
-        var layer = e.target;
-
+      function highlightDistrict(event) {
+        const layer = event.target;
         layer.setStyle({
           weight: 5,
           color: "#666",
           dashArray: "",
           fillOpacity: 0.2,
         });
-
         layer.bringToBack();
       }
 
-      function resetHighlight(e) {
-        geojsonBezirke.resetStyle(e.target);
+      function resetDistrictHighlight(event) {
+        districtBoundariesLayer.resetStyle(event.target);
       }
 
-      function zoomToFeature(e) {
-        map.fitBounds(e.target.getBounds());
+      function zoomToDistrict(event) {
+        berlinMap.fitBounds(event.target.getBounds());
       }
 
-      // Function to change map view
-      function changeMapView(coordinates, zoom) {
-        map.setView(coordinates, zoom); // Change map view to new coordinates and zoom level
+      // ==========================================================================
+      // EVENT LISTENERS
+      // ==========================================================================
+
+      // Add event listeners to district selection buttons
+      districtButtons.forEach((button) => {
+        button.addEventListener("change", function () {
+          if (this.checked) {
+            selectDistrict(this);
+          }
+        });
+      });
+
+      // ==========================================================================
+      // EXTERNAL API FOR WEBSITE INTEGRATION
+      // ==========================================================================
+
+      function changeMapView(coordinates, zoomLevel) {
+        berlinMap.setView(coordinates, zoomLevel);
       }
 
-      // Listen for custom event triggered from another part of the website
-      document.addEventListener("changeMapViewEvent", function (event) {
-        var data = event.detail;
-        changeMapView(data.coordinates, data.zoom);
+      // Listen for external map control events
+      document.addEventListener("changeMapViewEvent", (event) => {
+        const { coordinates, zoom } = event.detail;
+        changeMapView(coordinates, zoom);
       });
     </script>
   </body>
 </html>
-

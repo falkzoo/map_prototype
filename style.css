@@ -1,0 +1,308 @@
+/* ==========================================================================
+   BERLIN MAP STYLES
+   ========================================================================== */
+
+/* ==========================================================================
+   BASE STYLES
+   ========================================================================== */
+
+h1 {
+    text-align: center;
+}
+
+#map {
+    height: 700px;
+    position: relative;
+}
+
+/* Zoom instruction overlay */
+.zoom-instruction {
+    position: absolute;
+    bottom: 25%;
+    right: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    font-weight: 500;
+}
+
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+/* Layout for location popup - left/right sections */
+.location-popup {
+    width: 100%;
+    height: 100%;
+}
+
+.popup-layout {
+    display: flex;
+    gap: 15px;
+    min-height: 200px;
+}
+
+.popup-info-section {
+    flex: 1;
+    line-height: 1.5;
+    min-width: 250px;
+}
+
+.popup-images-section {
+    flex: 1;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+.popup-images-section img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Clearfix for floating elements */
+/* Old popup-content styles - no longer needed with new layout */
+
+/* ==========================================================================
+   DISTRICT SELECTION CONTROLS
+   ========================================================================== */
+
+/* Radio button container */
+.radio-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+/* Individual radio button styling */
+.radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 12px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.radio-label:hover {
+    background: #e0e0e0;
+}
+
+.radio-label:has(input[type="radio"]:checked) {
+    background: #007cba;
+    color: white;
+    border-color: #005a85;
+}
+
+/* Hide default radio button */
+.radio-label input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Radio button label text */
+.button-label {
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+}
+
+.radio-label input[type="radio"]:checked + .button-label {
+    font-weight: bold;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .radio-label .button-label {
+        padding: 0.3em 0.5em;
+        font-size: 0.8em;
+        margin: 0 3px;
+    }
+}
+
+/* ==========================================================================
+   MAP CONTROL PANELS
+   ========================================================================== */
+
+/* District information panel */
+.info,
+.district-info {
+    padding: 6px 8px;
+    font-family: inherit;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.info h4,
+.district-info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+/* Layer control container */
+.custom-control,
+.layer-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: inherit;
+}
+
+/* Toggle button for layer control */
+.toggle-button1,
+.layer-toggle-button {
+    padding: 8px 16px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border-radius: inherit;
+}
+
+/* Checkbox container */
+.checkbox-container {
+    background-color: transparent;
+    border: none;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   FORM CONTROLS
+   ========================================================================== */
+
+/* Base form styling */
+form {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+/* Form control wrapper */
+.form-control {
+    font-family: inherit;
+    font-size: 1.0rem;
+    font-weight: bold;
+    line-height: 1.1;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    border-radius: inherit;
+}
+
+/* ==========================================================================
+   CHECKBOX STYLES
+   ========================================================================== */
+
+/* Custom checkbox for layer controls */
+.custom-control-input[type="checkbox"],
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font-family: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+.custom-control-input[type="checkbox"] {
+    background-color: transparent;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"] {
+    grid-column: 1, 2;
+}
+
+/* Checkbox check mark */
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em currentColor;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    background-color: currentColor;
+}
+
+/* ==========================================================================
+   POPUP STYLES
+   ========================================================================== */
+
+/* Leaflet popup customization */
+.custom-popup .leaflet-popup-content-wrapper {
+    background: white;
+    color: #000000;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.custom-popup .leaflet-popup-content {
+    max-height: 400px;
+    max-width: max-content;
+    margin: 0;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* ==========================================================================
+   SCROLLBAR CUSTOMIZATION
+   ========================================================================== */
+
+*::-webkit-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: black grey;
+    width: 10px;
+    border-radius: 2px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 
