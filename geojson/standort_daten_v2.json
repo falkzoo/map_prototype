@@ -1953,5 +1953,65 @@
                 }
             }
         ]
+    },
+    "Werbung am Warentrenner": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "REWE Wenzlaff",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Werbung am Warentrenner<br>Ort: Theodor-Heuss-Platz<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/Trennstab-mit-Werbung.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Werbung am Warentrenner"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.272577857711566,
+                        52.510100479198584
+                    ]
+                }
+            }
+        ]
+    },
+    "Einkaufswagen Werbung": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "REWE Wenzlaff",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Einkaufswagen Werbung<br>Ort: Theodor-Heuss-Platz<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Einkaufswagen Werbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.272661006203846,
+                        52.510206588351565
+                    ]
+                }
+            }
+        ]
+    },
+    "Werbespot im Supermarkt-Radio": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "REWE Wenzlaff",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Werbespot im Supermarkt-Radio<br>Ort: Theodor-Heuss-Platz<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/Radio-Werbung.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Werbespot im Supermarkt-Radio"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.272560423350283,
+                        52.51010945767529
+                    ]
+                }
+            }
+        ]
     }
 }
