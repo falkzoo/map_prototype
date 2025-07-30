@@ -25,19 +25,32 @@ def generate_image_html(image_filename):
 
 def generate_info_section(row):
     """Generate the information section of the popup"""
-    return f"""
+    visible_columns = [
+        "Werbeträger",
+        "Ort",
+        "Standort",
+        "Maße",
+        "Beleuchtung",
+        "Buchungsintervall",
+        "Vorlaufzeit",
+    ]
+
+    info_section = f"""
     <h3>{row["Name"]}</h3>
-    <br>
-    Werbeträger: {row["Werbetraeger"]}<br>
-    Ort: {row["Ort"]}<br>
-    Standort: {row["Standort"]}<br>
-    Maße: {row["Maße"]}<br>
-    Beleuchtet: {row["Beleuchtung"]}<br>
-    Buchungsinterball: {row["Buchungsintervall"]}<br>
-    Vorlaufzeit: {row["Vorlaufzeit"]}<br>
+    <br>"""
+
+    for column in visible_columns:
+        data = row.get(column)
+        if data:
+            info_section += f"""{column}: {data}<br>"""
+        else:
+            print(f"No data or column found for the key {column}.")
+
+    info_section += """
     <br>
     <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'>
     """
+    return info_section
 
 
 def generate_images_section(row):
@@ -88,7 +101,7 @@ def generateJson(file_path_excel, file_path_json):
             "geometry": {"type": "Point", "coordinates": ""},
         }
 
-        category = row["Werbetraeger"]
+        category = row["Werbeträger"]
         if category not in data:
             data[category] = {"type": "FeatureCollection", "features": []}
 
@@ -113,4 +126,3 @@ def generateJson(file_path_excel, file_path_json):
 
 
 main()
-
