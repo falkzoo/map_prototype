@@ -1954,15 +1954,15 @@
             }
         ]
     },
-    "Werbung am Warentrenner": {
+    "Div. Supermarktwerbung": {
         "type": "FeatureCollection",
         "features": [
             {
                 "type": "Feature",
                 "properties": {
-                    "Name": "REWE Wenzlaff",
-                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Werbung am Warentrenner<br>Ort: Theodor-Heuss-Platz<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
-                    "Category": "Werbung am Warentrenner"
+                    "Name": "Supermarktwerbung - REWE Wenzlaff",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Theodor-Heuss-Platz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'><img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Werbung-Kassenband.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
                 },
                 "geometry": {
                     "type": "Point",
@@ -1971,44 +1971,169 @@
                         52.51028
                     ]
                 }
-            }
-        ]
-    },
-    "Einkaufswagen Werbung": {
-        "type": "FeatureCollection",
-        "features": [
+            },
             {
                 "type": "Feature",
                 "properties": {
-                    "Name": "REWE Wenzlaff",
-                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Einkaufswagen Werbung<br>Ort: Theodor-Heuss-Platz<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
-                    "Category": "Einkaufswagen Werbung"
+                    "Name": "Supermarktwerbung - Lidl",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Lidl</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Innsbrucker Platz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/cart-board.jpg' style='width: 15vw; min-width: 200px;'><img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.27273,
-                        52.51023
+                        13.34179,
+                        52.47705
                     ]
                 }
-            }
-        ]
-    },
-    "Werbespot im Supermarkt-Radio": {
-        "type": "FeatureCollection",
-        "features": [
+            },
             {
                 "type": "Feature",
                 "properties": {
-                    "Name": "REWE Wenzlaff",
-                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>REWE Wenzlaff</h3> <br>Werbetr\u00e4ger: Werbespot im Supermarkt-Radio<br>Ort: Theodor-Heuss-Platz<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Radio-Werbung.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
-                    "Category": "Werbespot im Supermarkt-Radio"
+                    "Name": "Supermarktwerbung - Netto",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Netto</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Breslauer Platz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/cart-board.jpg' style='width: 15vw; min-width: 200px;'><img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Trennstab-mit-Werbung-scaled.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        13.2726,
-                        52.5101
+                        13.33504,
+                        52.47172
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - REWE Asmussen",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - REWE Asmussen</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Breslauer Platz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Radio-Werbung.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.33314,
+                        52.46981
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - REWE",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - REWE</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Walther-Schreiber-Platz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Radio-Werbung.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.32772,
+                        52.46502
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - Lidl",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Lidl</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Schlo\u00dfstra\u00dfe 1<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.32763,
+                        52.46448
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - BUDNI",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - BUDNI</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Bundesallee 88<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Werbung-Kassenband.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.32803,
+                        52.46811
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - Lidl",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Lidl</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Hermannplatz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.42424,
+                        52.48699
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - Lidl",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Lidl</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Sonnenallee 192<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/cart-board.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.45201,
+                        52.47551
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - Netto",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Netto</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Wulkowerstr. 2<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/cart-board.jpg' style='width: 15vw; min-width: 200px;'><img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/Trennstab-mit-Werbung-scaled.jpeg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.56127,
+                        52.50443
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - Lidl",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Lidl</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Lausitzer Platz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.43526,
+                        52.5011
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "Name": "Supermarktwerbung - Lidl",
+                    "popupContent": "<div class='location-popup'> <div class='popup-layout'> <div class='popup-info-section'> <h3>Supermarktwerbung - Lidl</h3> <br>Werbetr\u00e4ger: Div. Supermarktwerbung<br>Ort: Oranienplatz<br>Standort: Supermarkt<br>Buchungsintervall: ab 12 Monate<br>Vorlaufzeit: 3 Wochen<br> <br> <img src='https://www.wtm-aussenwerbung.de/wp-content/uploads/wtm-aussenwerbung.webp' style='width: 10vw;'> </div> <div class='popup-images-section'> <img src='https://wtm-aussenwerbung-berlin.de/wp-content/uploads/2025/07/einkaufswagen-werbung.jpg' style='width: 15vw; min-width: 200px;'> </div> </div> </div>",
+                    "Category": "Div. Supermarktwerbung"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        13.41444,
+                        52.50206
                     ]
                 }
             }
