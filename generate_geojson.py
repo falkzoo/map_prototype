@@ -12,15 +12,12 @@ def main():
     print("Json data has been written into standort_daten.json")
 
 
-def generate_image_html(image_filename):
+def generate_image_html(image_url):
     """Generate HTML for a single image"""
-    if not image_filename:
+    if not image_url:
         return ""
 
-    base_url = "https://www.wtm-aussenwerbung.de/wp-content/uploads/"
-    return (
-        f"<img src='{base_url}{image_filename}' style='width: 15vw; min-width: 200px;'>"
-    )
+    return f"<img src='{image_url}' style='width: 15vw; min-width: 200px;'>"
 
 
 def generate_info_section(row):
