@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Map Container -->
+  <div class="custom-popup" id="map"></div>
+
+  <script>
+    // ==========================================================================
+    // CONSTANTS AND CONFIGURATION
+    // ==========================================================================
+    // Initialize map with Berlin coordinates
+    const berlinMap = L.map("map", {
+      center: [52.51, 13.39],
+      zoom: 11,
+      scrollWheelZoom: "center", // Enable with better behavior
+    });
+
+    // Configure scroll wheel zoom behavior - require Ctrl key for zooming
+    const mapContainer = berlinMap.getContainer();
+
+    // Marker styling options
+    const MARKER_OPTIONS = {
+      color: "black",
+      radius: 8,
+      weight: 1,
+      opacity: 1,
+      interactive: true,
+      fillOpacity: 1,
+    };
+
+    const ROUTES_TO_DISPLAY = ["U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8", "U9", "S42"]
+
+    const API_KEY = ""
+    const SHEET_ID = "16j8VuT1ziwtkP-M5uuhFg7Z0AWqkxlLDTCwmdTwIEVA"
+    const RANGE = "Berlin!A:F"
+
+    // Data source URLs
+    const DATA_SOURCES = {
+      districts:
+        "https://raw.githubusercontent.com/funkeinteraktiv/Berlin-Geodaten/master/berlin_bezirke.geojson",
+      district_stats:
+        `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`,
+      public_transportation_routes:
+        "https://raw.githubusercontent.com/falkzoo/map_prototype/refs/heads/main/geojson/berlin_routes.geojson",
+    };
+    // ==========================================================================
+    // DATA LOADING AND PROCESSING
+    // ==========================================================================
+
+    // Load district boundaries
+    fetch(DATA_SOURCES.districts)
+      .then((response) => response.json())
+      .then((geoJsonData) => {
+        districtBoundariesLayer =
+          createDistrictLayer(geoJsonData).addTo(berlinMap);
+      })
+      .catch((error) => {
+        console.error("Error loading district data:", error);
+      });
+
+
+    // Load district boundaries
+    fetch(DATA_SOURCES.public_transportation_routes)
+      .then((response) => response.json())
+      .then((geoJsonData) => {
+        console.log("geoJsonData: ", geoJsonData)
+        let filtered_features = geoJsonData["features"].filter((feat) => {
+          if (ROUTES_TO_DISPLAY.includes(feat.properties.route_name)) {
+            return feat
+          }
+        })
+        console.log("filteredFeatures: ", filtered_features)
+        geoJsonData["features"] = filtered_features
+        transportationRouteLayer =
+          createTransportationLayer(geoJsonData).addTo(berlinMap);
+      })
+      .catch((error) => {
+        console.error("Error loading transportation data:", error);
+      });
+
+
+
+    // global store
+    window.statsById = Object.create(null);
+    async function loadDistrictStats() {
+      const url = DATA_SOURCES.district_stats;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      const [headers, ...rows] = data.values;
+      const colIndex = Object.fromEntries(headers.map((h, i) => [h.trim().toLowerCase(), i]));
+
+      const out = Object.create(null);
+      for (const r of rows) {
+        const id = r[colIndex["cartodb_id"]];
+        if (!id) continue;
+        out[id] = {
+          name: r[colIndex["name"]],
+          population: Number(r[colIndex["population"]] || 0),
+          area: Number(r[colIndex["area"]] || 0),
+          adCount: Number(r[colIndex["adcount"]] || 0),
+          notes: r[colIndex["notes"]] || ""
+        };
+      }
+
+      window.statsById = out;
+      console.log("Loaded stats:", out);
+    }
+
+    // Kick off CSV stats loading
+    loadDistrictStats();
+
+
+    // ==========================================================================
+    // MAP INITIALIZATION AND CONFIGURATION
+    // ==========================================================================
+
+
+
+    // Create zoom instruction element
+    const zoomInstruction = document.createElement("div");
+    zoomInstruction.className = "zoom-instruction";
+    zoomInstruction.textContent = "Strg + Mausrad zum Zoomen";
+    mapContainer.appendChild(zoomInstruction);
+
+    let instructionTimeout;
+
+    // Override default scroll wheel behavior
+    berlinMap.scrollWheelZoom.disable();
+
+    mapContainer.addEventListener(
+      "wheel",
+      (e) => {
+        // Only zoom if Ctrl key is held down
+        if (e.ctrlKey) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          // Hide instruction if visible
+          zoomInstruction.style.opacity = "0";
+
+          // Determine zoom direction
+          const delta = e.deltaY > 0 ? -1 : 1;
+          const newZoom = berlinMap.getZoom() + delta;
+
+          // Zoom to mouse position
+          const mousePoint = berlinMap.mouseEventToContainerPoint(e);
+          const mouseLatLng = berlinMap.containerPointToLatLng(mousePoint);
+
+          berlinMap.setZoomAround(mouseLatLng, newZoom);
+        } else {
+          // Show instruction when trying to scroll without Ctrl
+          e.preventDefault();
+          e.stopPropagation();
+
+          zoomInstruction.style.opacity = "1";
+
+          // Clear existing timeout
+          if (instructionTimeout) {
+            clearTimeout(instructionTimeout);
+          }
+
+          // Hide instruction after 2 seconds
+          instructionTimeout = setTimeout(() => {
+            zoomInstruction.style.opacity = "0";
+          }, 2000);
+        }
+      },
+      {passive: false},
+    );
+
+
+
+    // ==========================================================================
+    // GLOBAL VARIABLES
+    // ==========================================================================
+
+    let districtBoundariesLayer;
+    let transportationRouteLayer;
+    const districtButtons = document.querySelectorAll(
+      '.radio-label input[type="radio"]',
+    );
+
+    // ==========================================================================
+    // BASE MAP SETUP
+    // ==========================================================================
+
+    // Add base tile layer
+    berlinMap.attributionControl.setPosition('bottomleft');
+    L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+      {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: "abcd",
+        maxZoom: 20,
+        minZoom: 8
+      }
+    ).addTo(berlinMap);
+
+    // Create custom map panes for proper layering
+    berlinMap.createPane("districtPane");
+    berlinMap.getPane("districtPane").style.zIndex = 201;
+
+    berlinMap.createPane("markerPane");
+    berlinMap.getPane("markerPane").style.zIndex = 600;
+
+    berlinMap.createPane("transportationPane")
+    berlinMap.getPane("districtPane").style.zIndex = 202;
+
+    // ==========================================================================
+    // DISTRICT INFORMATION CONTROL
+    // ==========================================================================
+
+    const districtInfoControl = L.control();
+    districtInfoControl._visible = false;
+    // Show the panel
+    districtInfoControl.open = function () {
+      if (!this._div) return;
+      this._div.classList.remove("is-hidden");
+      this._visible = true;
+    };
+
+    // Hide the panel
+    districtInfoControl.close = function () {
+      if (!this._div) return;
+      this._div.classList.add("is-hidden");
+      this._visible = false;
+    };
+
+    // Toggle visibility (not used by hover flow but available)
+    districtInfoControl.toggle = function () {
+      if (this._visible) this.close();
+      else this.open();
+    };
+
+    districtInfoControl.onAdd = function (map) {
+      this._div = L.DomUtil.create("div", "info is-hidden");
+      this.update();
+      return this._div;
+    };
+
+    // Assumes window.statsById[id] has keys: name, area, population, adCount.
+
+    districtInfoControl.update = function update(districtProperties = null) {
+      if (!this._els) {
+        const root = this._div;
+
+        // Create an inner wrapper so root can stay the Leaflet control
+        const panel = document.createElement("section");
+        panel.className = "district-panel";
+        panel.id = "district-info";
+        panel.setAttribute("role", "region");
+        panel.setAttribute("aria-labelledby", "district-title");
+        panel.setAttribute("lang", "de");
+        panel.setAttribute("aria-live", "polite");
+
+        // Header
+        const header = document.createElement("header");
+        header.className = "district-panel__header";
+        const titleEl = document.createElement("h2");
+        titleEl.className = "district-panel__title";
+        titleEl.id = "district-title";
+        header.appendChild(titleEl);
+
+        // Body
+        const body = document.createElement("div");
+        body.className = "district-panel__body";
+
+        const meta = document.createElement("div");
+        meta.className = "district-panel__meta";
+
+        const notesSection = document.createElement("section");
+        notesSection.className = "district-panel__notes";
+        notesSection.setAttribute("aria-label", "Hinweise");
+        const notesP = document.createElement("p");
+        notesSection.appendChild(notesP);
+
+        body.append(meta, notesSection);
+
+        // Footer
+        const footer = document.createElement("footer");
+        footer.className = "district-panel__footer";
+        const small = document.createElement("small");
+        small.className = "source";
+        small.textContent = "Datenquelle: Bezirksamt / interne Erhebung";
+        footer.appendChild(small);
+
+        // Mount inner panel into control root
+        panel.append(header, body, footer);
+        root.replaceChildren(panel);
+
+        // Cache refs + formatters
+        this._els = {titleEl, meta, notesP};
+        this._fmt = {
+          int: new Intl.NumberFormat("de-DE", {maximumFractionDigits: 0}),
+          area: new Intl.NumberFormat("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+        };
+      }
+
+      const id = districtProperties?.cartodb_id;
+      const statsById = window.statsById;
+      if (!statsById || !id || !statsById[id]) {
+        // Clear dynamic content on empty state
+        this._els.titleEl.textContent = "Bezirk auswählen";
+        this._els.meta.replaceChildren();
+        this._els.notesP.textContent = "Wähle einen Bezirk auf der Karte, um Details anzuzeigen.";
+        return;
+      }
+
+      const {name = "", area, population, adCount, notes} = statsById[id];
+
+      // Title
+      this._els.titleEl.textContent = name ? `Berlin – ${name}` : "Bezirk auswählen";
+
+      // Chips (rebuild on each update)
+      const chipsFrag = document.createDocumentFragment();
+
+      // Helper to create a chip with safe text
+      const chip = (label, valueNodes) => {
+        const span = document.createElement("span");
+        span.className = "chip";
+        // label
+        span.append(document.createTextNode(label + " "));
+        // value (as nodes to allow superscript ² without unsafe HTML)
+        if (Array.isArray(valueNodes)) {
+          valueNodes.forEach((n) => span.append(n));
+        } else if (valueNodes != null) {
+          span.append(document.createTextNode(String(valueNodes)));
+        }
+        return span;
+      };
+
+      // Name chip
+      // if (name) {
+      //   chipsFrag.appendChild(chip("Bezirk:", name));
+      // }
+
+      // Area chip (show when finite; keep 0 visible if it occurs)
+      if (Number.isFinite(area)) {
+        const areaText = this._fmt.area.format(area);
+        const km = document.createTextNode(`${areaText} km`);
+        const sup = document.createElement("sup");
+        sup.textContent = "2";
+        chipsFrag.appendChild(chip("Fläche:", [km, sup]));
+      }
+
+      // Population chip
+      if (Number.isFinite(population)) {
+        chipsFrag.appendChild(chip("Einwohner:", this._fmt.int.format(population)));
+      }
+
+      // Ad count chip
+      if (Number.isFinite(adCount)) {
+        chipsFrag.appendChild(chip("Werbeträger:", this._fmt.int.format(adCount)));
+      }
+
+      this._els.meta.replaceChildren(chipsFrag);
+
+      // Notes
+      if (name) {
+        this._els.notesP.textContent = `${notes}`;
+      } else {
+        this._els.notesP.textContent = "Wähle einen Bezirk auf der Karte, um Details anzuzeigen.";
+      }
+    };
+
+
+
+    districtInfoControl.addTo(berlinMap);
+
+    // ==========================================================================
+    // LAYER CONTROL SETUP
+    // ==========================================================================
+
+
+    // ==========================================================================
+    // LAYER CREATION FUNCTIONS
+    // ==========================================================================
+
+    function createDistrictLayer(geoJsonData) {
+      return new L.geoJSON(geoJsonData, {
+        style: () => ({
+          color: "darkgreen",
+          opacity: 1,
+          fillOpacity: 0,
+          weight: 2,
+          dashArray: "10",
+        }),
+        pane: "districtPane",
+        onEachFeature: function (feature, layer) {
+          layer.on({
+            mouseover: highlightDistrict,
+            mouseout: resetDistrictHighlight,
+            click: zoomToDistrict
+          })
+        },
+      });
+    }
+
+    function createPointLayer(geoJsonData) {
+      return new L.geoJSON(geoJsonData, {
+        pointToLayer: (feature, latlng) =>
+          L.circleMarker(latlng, MARKER_OPTIONS),
+        pane: "markerPane",
+        style: (feature) => ({
+          fillColor: ADVERTISING_LAYERS[feature.properties.Category].color,
+        }),
+        onEachFeature: (feature, layer) => {
+          if (feature.properties && feature.properties.popupContent) {
+            layer.bindPopup(feature.properties.popupContent, {
+              maxWidth: "auto",
+            });
+          }
+        },
+      });
+    }
+
+    function createTransportationLayer(geoJsonData) {
+      return new L.geoJSON(geoJsonData, {
+        style: () => ({
+          color: "blue",
+          opacity: 0.3,
+          fillOpacity: 0,
+          weight: 2,
+        }),
+        pane: "transportationPane",
+        onEachFeature: function (feature, layer) {
+        },
+      });
+    }
+
+    // ==========================================================================
+    // DISTRICT INTERACTION FUNCTIONS
+    // ==========================================================================
+    function highlightDistrict(event) {
+      const layer = event.target;
+      layer.setStyle({
+        weight: 5,
+        color: "#12aeff",
+        dashArray: "",
+        fillOpacity: 0.4,
+      });
+
+      districtInfoControl.update(layer.feature.properties);
+      districtInfoControl.open();
+
+      layer.bringToFront();
+    }
+
+    function resetDistrictHighlight(event) {
+      districtBoundariesLayer.resetStyle(event.target);
+      districtInfoControl.close();
+    }
+
+    function zoomToDistrict(event) {
+      berlinMap.fitBounds(event.target.getBounds());
+      districtInfoControl.open();
+    }
+
+    // ==========================================================================
+    // EVENT LISTENERS
+    // ==========================================================================
+
+    // Add event listeners to district selection buttons
+    // districtButtons.forEach((button) => {
+    //   button.addEventListener("change", function () {
+    //     if (this.checked) {
+    //       selectDistrict(this);
+    //     }
+    //   });
+    // });
+    //
+    // ==========================================================================
+    // EXTERNAL API FOR WEBSITE INTEGRATION
+    // ==========================================================================
+
+    function changeMapView(coordinates, zoomLevel) {
+      berlinMap.setView(coordinates, zoomLevel);
+    }
+
+    // Listen for external map control events
+    document.addEventListener("changeMapViewEvent", (event) => {
+      const {coordinates, zoom} = event.detail;
+      changeMapView(coordinates, zoom);
+    });
+  </script>
+</body>
+
+</html>
